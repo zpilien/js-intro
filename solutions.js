@@ -125,7 +125,6 @@ Using the fullName and birthPlace variables, console.log the following:
 
 let fullName = firstName + ' ' + lastName;
 console.log(fullName);
-
 console.log('Hi name is is ' + fullName + ' and I was born in ' + birthPlace + '.');
 
 
