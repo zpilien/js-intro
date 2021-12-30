@@ -103,22 +103,23 @@ console.log(hamajang);
 let tagTeam = [['peanut butter', 'chocolate'], ['lemon', 'bar'], ['orange', 'chicken']];
 console.log(tagTeam);
 
-//*7
-//Accessing values in Arrays
+/*
+* #5
+* Accessing values in ARRAYS
+let partyMenu = ['steak nachos', 'fried rice', 'bbq ribs', 'sweet potato fries', 'chicken wings', 'carrot cake', 'chi chi dango'];
+Console.log the entire array.
+Console.log the length of this array.
+Console.log 'sweet potato fries' from this array.
+Console.log 'steak nachos' from this array.
+*/
+console.log(partyMenu);
+console.log(partyMenu.length);
+console.log(partyMenu[3]);
+console.log(partyMenu[0]);
 
-var partyList = ["carrot cake", "gin & tonic", "kalua pork nachos", "double stuff oreos", "cool ranch doritos", "orange chicken"];
 
-// Console.log the entire array.
-// Console.log the length of this array.
-// Console.log only "carrot cake" from this array.
-// Console.log only "cool ranch doritos" from this array
-
-console.log(partyList);
-console.log(partyList.length);
-console.log(partyList[0]);
-console.log(partyList[4]);
-
-/*#8 
+/*
+#8 
 * Concatenation 
 * Concatenate the variables `firstName` and `lastName` from exercise 1 and store them into a new variable called `fullName` (don't forget to include a space between the firstName and lastName).
 *
