@@ -77,69 +77,32 @@ let hasNetFlix = true;
 console.log(hasNetFlix);
 let beenToParis = true;
 console.log(beenToParis);
-/*
 
+/*
 * #4
-* Variables with a Null value
-*
-* Declare variables named completedPrepClass, traveledToMars and buyVicADrink.
-*
-* Assign a null value to each variable and console.log each variable. 
+* Variables with an ARRAY value
+Declare a variable named plateLunch and assign it an array containing five of your favorite lunch items.
+Declare a variable named `candyBox` and assign it an array containing five candies of your choosing.
+Declare a variable named `westSiiiiide` and assign it an array containing states found on the west coast of the US.
+Declare a variable named `lotteryResult and assign it an array containing 5 random numbers.
+Declare a variable named `hamajang` and assign it an array containing 6 different data types.
+Declare a variable named `tagTeam` and assign it an array containing 3 arrays, with each array containing items that complement with one another.
+
+Console.log each variable to check your work
 */
-var completedPrepClass = null;
-console.log(completedPrepClass);
-
-var traveledToMars = null;
-console.log(traveledToMars);
-
-var buyVicADrink = null;
-console.log(buyVicADrink);
-/*
-* #5
-* Variables with a undefined value.
-*
-* Declare a variable named superBowlChamps, nextPres and hawaiiRail.
-*
-* Do not assign a value to the variable and console.log each variable.
-*/
-var superBowlChamps;
-console.log(superBowlChamps);
-
-var nextPres;
-console.log(nextPres);
-
-var hawaiiRail;
-console.log(hawaiiRail);
-/*
-* #6
-* Variables with an Array value
-* 
-* Declare a variable named plateLunch and assign it an array containing 5 of your favorite lunch items.
-* Declare a variable named `donutBox` and assign it an array containing 5 donuts of your choosing.
-* Declare a variable named `westCoast` and assign it an array containing states found on the west coast of the US.
-* Declare a variable named `lotteryResult and assign it an array containing 5 random numbers.
-* Declare a variable named `hamajang` and assign it an array containing 6 different data types.
-* Declare a variable named `dynamicDuos` and assign it an array containing 3 arrays, with each array containing items that match with one another.
-*
-* Console.log each variable.
-*/
-var plateLunch = ['mac salad', 'orange chicken', 'garlic chicken', 'meat jun', 'kalbi'];
+let plateLunch = ['mac salad', 'chicken katsu', 'garlic chicken', 'orange chicken', 'beef curry'];
 console.log(plateLunch);
-
-var donutBox = ['old fashion', 'buttermilk', 'pb and chocolate', 'coffee cake', 'poi malasada'];
-console.log(donutBox)
-
-var westCoast = ['California', 'Oregon', 'Washington'];
-console.log(westCoast);
-
-var lotteryResult = [11, 8, 2, 88, 3];
+let candyBox = ['kit kat', "reese's peanut butter cup", 'twix', 'm&ms', 'cola gummies'];
+console.log(candyBox);
+let westSiiiiide = ['California', 'Oregon', 'Washington'];
+console.log(westSiiiiide);
+let lotteryResult = [11, 8, 2, 88, 3];
 console.log(lotteryResult);
-
-var hamajang = ['string', 0, ['this', 'is', 'an', 'arrray'], null, 5>3, 6<2, undefined];
+let hamajang = ['string', 0, ['this', 'is', 'an', 'arrray'], null, 5>3, 6<2, undefined];
 console.log(hamajang);
+let tagTeam = [['peanut butter', 'chocolate'], ['lemon', 'bar'], ['orange', 'chicken']];
+console.log(tagTeam);
 
-var dynamicDuos = [['peanut butter', 'chocolate'], ['gin', 'tonic'], ['orange', 'chicken']];
-console.log(dynamicDuos);
 //*7
 //Accessing values in Arrays
 
