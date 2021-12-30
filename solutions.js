@@ -128,5 +128,48 @@ console.log(fullName);
 console.log('Hi name is is ' + fullName + ' and I was born in ' + birthPlace + '.');
 
 
+/*
+* #7
+* Variables with an OBJECT value
+Declare the following variables and add your own values to each name to complete the properties for each object. Console.log each variable to check your work.
+  kicks
+    - brand
+    - size
+    - color
+    
+  car
+    - brand
+    - model
+    - color
+    
+  bank
+    - name
+    - branch
+    - location
+    - rating
+    - helpful
+*/
 
+let kicks = {
+  brand: 'All Birds',
+  size: 11,
+  color: 'red'
+}
+console.log(kicks);
+
+let car = {
+  brand: 'Tesla',
+  model: 3,
+  color: ['black', 'white']
+ }
+console.log(car);
+
+let bank = {
+  name: 'Bank of Hawaii',
+  branch: 'Downtown',
+  location: '1111 Bishop St',
+  rating: 2,
+  helpful: false
+}
+console.log(bank);
 
