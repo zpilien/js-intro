@@ -18,15 +18,13 @@ console.log(fruit);  // <= this should print out 'banana'
 /*
 * #1
 * Variables with a STRING value
-
-* Declare the following variables and assign your own string values for each variable. Console.log each variable to check your work.
+Declare the following variables and assign your own string values for each variable. Console.log each variable to check your work.
   firstName
   lastName
   birthPlace
   favColor
   favFood
 */
-
 let firstName = 'Ronald';
 console.log(firstName);
 let lastName = 'McDonald';
@@ -41,7 +39,6 @@ console.log(favFood);
 /*
 * #2
 * Variables with a Number value
-
 Declare the following variables and assign your own number values for each variable. Console.log each variable to check your work.
   age
   shoeSize
@@ -49,7 +46,6 @@ Declare the following variables and assign your own number values for each varia
   abcStoresInHi
   princeSong
 */
-
 let age = 57
 console.log(age);
 let shoeSize = 22;
@@ -63,52 +59,26 @@ console.log(princeSong);
 
 /*
 * #3
-* Variables with a Boolean value
-*
-* Declare variables named likesMcDonalds, eatsDoughnuts and ownsRedShoes.
-*
-* Assign your own boolean values to each variable and console.log each variable.
-*
-* 
-* Now, use comparison and logic operators (>, <, >=, <=, ===, !==) to make the following variables True of False
-*
-* Console.log each variable.
-*
+* Variables with a BOOLEAN value
+Declare the following variables and assign your own boolean values for each variable. Console.log each variable to check your work.
+  lovesMcdonalds
+  isVegan
+  olderThan21
+  hasNetFlix
+  beenToParis
 */
-var likesMcDonalds = true;
-console.log(likesMcDonalds);
-
-var eatsDoughnuts = false;
-console.log(eatsDoughnuts);
-
-var ownsRedShoes = true;
-console.log(ownsRedShoes);
-
-//For example:
-//Make me True:
-var booya1 = 3 > 2; 
-console.log('booya1:' , booya1);
-
-//Make me False:
-var booya2 = 5<2;
-console.log('booya2:' , booya2);
-
-//Make me True:
-var booya3 = 10 >= 10;
-console.log('booya3:' , booya3);
-
-//Make me False:
-var booya4 = 11 <= 9;
-console.log('booya4:' , booya4);
-
-//Make me True:
-var booya5 = 'Mayor McCheese' === 'Mayor McCheese';
-console.log('booya5:' , booya5);
-
-//Make me False:
-var booya6 = 'hamburglar' !== 'hamburglar';
-console.log('booya6:' , booya6);
+let lovesMcdonalds = false;
+console.log(lovesMcdonalds);
+let isVegan = false;
+console.log(isVegan);
+let olderThan21 = true;
+console.log(olderThan21);
+let hasNetFlix = true;
+console.log(hasNetFlix);
+let beenToParis = true;
+console.log(beenToParis);
 /*
+
 * #4
 * Variables with a Null value
 *
