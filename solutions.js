@@ -17,7 +17,7 @@ console.log(fruit);  // <= this should print out 'banana'
 
 /*
 * #1
-* Variables with a 'string' value
+* Variables with a STRING value
 
 * Declare the following variables and assign your own string values for each variable. Console.log each variable to check your work.
   firstName
@@ -41,31 +41,26 @@ console.log(favFood);
 /*
 * #2
 * Variables with a Number value
-*
-* Declare variables named favNumber, yourShoeSize, thatOnePrinceSong, floorsAlaMoanaHotel, numOfJapanPrefectures, numOfABCstoresinHi, and cheesecakesFlavAtCheeseCakeFac
-*
-* Assign your own number values to each variable and console.log each variable.
+
+Declare the following variables and assign your own number values for each variable. Console.log each variable to check your work.
+  age
+  shoeSize
+  mcdonaldsInHi
+  abcStoresInHi
+  princeSong
 */
-var favNumber = 36899;
-console.log(favNumber);
 
-var yourShoeSize = 11;
-console.log(yourShoeSize);
+let age = 57
+console.log(age);
+let shoeSize = 22;
+console.log(shoeSize);
+let mcdonaldsInHi = 75;
+console.log(mcdonaldsInHi);
+let abcStoresInHi = 56;
+console.log(abcStoresInHi);
+let princeSong = 7;
+console.log(princeSong);
 
-var thatOnePrinceSong = 7;
-console.log(thatOnePrinceSong);
-
-var floorsAlaMoanaHotel = 38;
-console.log(floorsAlaMoanaHotel);
-
-var numOfJapanPrefectures = 47;
-console.log(numOfJapanPrefectures);
-
-var numOfABCstoresinHi = 57;
-console.log(numOfABCstoresinHi);
-
-var cheesecakesFlavAtCheeseCakeFac = 34;
-console.log(cheesecakesFlavAtCheeseCakeFac);
 /*
 * #3
 * Variables with a Boolean value
