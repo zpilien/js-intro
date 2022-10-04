@@ -22,6 +22,17 @@ Declare the following variables and assign your own string values for each varia
   favColor
   favFood
 */
+let firstName = 'Zack';
+let lastName = 'Pilien';
+let birthPlace ='Oahu';
+let favColor = 'Purple';
+let favFood = 'kalo';
+
+console.log(firstName);
+console.log(lastName);
+console.log(birthPlace);
+console.log(favColor);
+console.log(favFood);
 
 
 /*
@@ -35,6 +46,17 @@ Declare the following variables and assign your own number values for each varia
   princeSong
 */
 
+let age = '28';
+let shoeSize = '11';
+let mcdonaldsInHi = '44';
+let abcStoresInHi = '86';
+let princeSong = '1999';
+
+console.log(age);
+console.log(shoeSize);
+console.log(mcdonaldsInHi);
+console.log(abcStoresInHi);
+console.log(princeSong);
 
 /*
 * #3
@@ -46,6 +68,18 @@ Declare the following variables and assign your own boolean values for each vari
   hasNetFlix
   beenToParis
 */
+
+let lovesMcdonalds = true;
+let isVegan = false;
+let olderThan21 = true;
+let hasNetFlix = true;
+let beenToParis = true;
+
+console.log(lovesMcdonalds);
+console.log(isVegan);
+console.log(olderThan21);
+console.log(hasNetFlix);
+console.log(beenToParis);
 
 
 /*
@@ -60,6 +94,27 @@ Declare a variable named `tagTeam` and assign it an array containing 3 arrays, w
 Console.log each variable to check your work
 */
 
+let plateLunch = ['katsu', 'meatJun', 'locoMoco', 'mochiko', 'kalbi'];
+let candyBox = ['whiteRabbit', 'lemonPeel', 'wasabiPea', 'arare', 'liHingSeed'];
+let westSiiiiide = ['washington', 'oregon', 'california'];
+let lotteryResult = ['44', '95', '76', '34', '808'];
+const rubbish = {
+  dirty: true,
+  quantity: 'choke'
+}
+let hamajang = [true, 'mayjah', 12, ['frog',13], rubbish, westSiiiiide[3]];
+let tagTeam = [
+  [ 'tea', 'coffee'],
+   [1, 2, 3],
+   ['lifted', 'toyota', 'tacoma']
+  ];
+
+console.log(plateLunch);
+console.log(candyBox);
+console.log(westSiiiiide);
+console.log(lotteryResult);
+console.log(hamajang);
+console.log(tagTeam);
 
 /*
 * #5
@@ -71,6 +126,12 @@ Console.log 'sweet potato fries' from this array.
 Console.log 'steak nachos' from this array.
 */
 
+let partyMenu = ['steak nachos', 'fried rice', 'bbq ribs', 'sweet potato fries', 'chicken wings', 'carrot cake', 'chi chi dango'];
+
+console.log(partyMenu);
+console.log(partyMenu.length);
+console.log(partyMenu[3]);
+console.log(partyMenu[0]);
 
 /*
 #6
@@ -80,6 +141,9 @@ Using the fullName and birthPlace variables, console.log the following:
 "Hi my name is fullName and I was born in birthPlace." 
 */
 
+let fullName = firstName + lastName;
+let concatSentence = 'Hi my name is ' + fullName + 'and I was born in ' + birthPlace;
+console.log(concatSentence);
 
 
 /*
@@ -104,4 +168,26 @@ Declare the following variables and add your own values to each name to complete
     - helpful
 */
 
+let kicks = {
+  brand: 'converse',
+  size: 11,
+  color: 'purple'
+};
+console.log(kicks);
+
+let car = {
+  brand: 'volvo',
+  model: 240,
+  color: 'red'
+};
+console.log(car);
+
+let bank = {
+  name: 'HawaiiStateFCU',
+  branch: 'kaneohe',
+  location: 'byWindwardMall',
+  rating: 44,
+  helpful: true
+};
+console.log(bank);
 
